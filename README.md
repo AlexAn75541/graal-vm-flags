@@ -1,5 +1,5 @@
 # Flags for Minecraft Server using GraalVM 
-### My personal GraalVM set of flags dedicated for Minecraft Server, based on Aikars's flags and with the addition of GraalVM Enterprise optimization flags 
+### My personal GraalVM set of flags dedicated for Minecraft Server (and make it performs better), based on Aikars's flags and with the addition of GraalVM Enterprise optimization flags 
 
 ___
 # The Flags:
