@@ -9,3 +9,14 @@ ___
 ___
 
 That should be good i think
+
+___
+
+Source:
+- https://github.com/Obydux/Minecraft-GraalVM-Flags
+- https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks
+- https://www.reddit.com/r/feedthebeast/comments/18hta1r/how_i_about_doubled_my_minecraft_performance/
+- https://obydux.github.io/Minecraft-startup-flags/
+- https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks
+- https://github.com/etil2jz/etil-minecraft-flags
+- https://docs.papermc.io/paper/1.18/aikars-flags
