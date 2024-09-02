@@ -13,9 +13,9 @@ java -Xms8G -Xmx8G `-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMilli
 > Ptedrodactyl Panel users must set the -Xmx and -Xms value to 70-80% of the server's RAM in order to cover the Java's Overhead memory
 > Additionally, you can "automate" the value by setting this: 
 > ```
-> -Xms$(({{SERVER_MEMORY}} - ({{SERVER_MEMORY}}/20)))M -Xmx$(({{SERVER_MEMORY}} - ({{SERVER_MEMORY}}/20)))M
+> -Xms$(({{SERVER_MEMORY}} - ({{SERVER_MEMORY}}/8)))M -Xmx$(({{SERVER_MEMORY}} - ({{SERVER_MEMORY}}/8)))M
 > ```
-> As you can see, the number `20` I've set above indicates how much RAM after divided to 20, subsequently the Server's allocated RAM would minus that divided value and SHOULD be able to run well   
+> As you can see, the number `8` I've set above indicates how much RAM after divided to 8, subsequently the Server's allocated RAM would minus that divided value and SHOULD be able to run well   
 ___
 
 # Source:
