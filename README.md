@@ -26,6 +26,7 @@ ___
 - https://obydux.github.io/Minecraft-startup-flags/s
 - https://github.com/etil2jz/etil-minecraft-flags
 - https://docs.papermc.io/paper/1.18/aikars-flags
+- https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/
 
 ___
 
