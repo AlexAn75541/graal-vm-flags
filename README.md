@@ -15,7 +15,7 @@ java -Xms8G -Xmx8G `-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMilli
 > ```
 > -Xms$(({{SERVER_MEMORY}} - ({{SERVER_MEMORY}}/8)))M -Xmx$(({{SERVER_MEMORY}} - ({{SERVER_MEMORY}}/8)))M
 > ```
-> As you can see, the number `8` I've set above indicates how much RAM after divided to 8, subsequently the Server's allocated RAM would minus that divided value and SHOULD be able to run well   
+> As you can see, the number `8` I've set above indicates how much RAM after divided to 8 (approx 80%) , subsequently the Server's allocated RAM would minus that divided value and SHOULD be able to run well   
 ___
 
 # Source:
