@@ -8,7 +8,7 @@ java -Xms8G -Xmx8G `-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMilli
 
  You can change the -Xmx and -Xms to fit your server's RAM, keep in mind that both of these value should be the same as mentioned in [here](https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/#:~:text=%2DXms%20matching%20%2DXmx,Xmx%20the%20same!) 
 > [!CAUTION]
-> These flags are my personal choice, your server's performance may vary. I haven't test these flags thoroughly enough to prove that this flags-changing method will work as expected    
+> These flags are my personal choice, your server's performance may vary. I haven't test these flags thoroughly enough to prove that this method will work as expected    
 
 > [!NOTE]
 > Pterodactyl Panel users must set the -Xmx and -Xms value to 70-80% of the server's RAM in order to cover the Java's Overhead memory.        
@@ -16,7 +16,7 @@ java -Xms8G -Xmx8G `-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMilli
 > ```
 > -Xms$(({{SERVER_MEMORY}} - ({{SERVER_MEMORY}}/8)))M -Xmx$(({{SERVER_MEMORY}} - ({{SERVER_MEMORY}}/8)))M
 > ```
-> As you can see, the number `8` I've set above indicates how much RAM after divided to 8 (approx 80%) , subsequently the Server's allocated RAM would minus that divided value and SHOULD be able to run well   
+> As you can see, the number `8` I've set above indicates how much RAM after divided to 10 (equivalent of dividing the RAM to 80%) and subsequently, the server's allocated RAM would minus that divided value and SHOULD be able to run well.   
 ___
 
 # Source:
