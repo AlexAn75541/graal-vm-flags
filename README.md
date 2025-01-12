@@ -1,5 +1,6 @@
 # Flags for Minecraft Server using GraalVM 
-### My personal GraalVM set of flags dedicated for Minecraft Server (and make it performs better), based on Aikars's flags and with the addition of GraalVM Enterprise optimization flags 
+### My personal GraalVM set of flags dedicated for Minecraft Server (and make it performs better), based on Aikars's flags and with the addition of GraalVM Enterprise optimization flags, 
+### If you want to apply this flag on Ptedrodactyl or any Docker-based panel then I'd reccommend using my docker image (forked from RikoDev): https://github.com/AlexAn75541/pterodactyl-graalvm
 
 ___
 # The Flags:
