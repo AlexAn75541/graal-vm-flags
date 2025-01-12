@@ -31,4 +31,11 @@ ___
 
 ___
 
+# Coming-up optimization
+
+These optimizations method will be listed in this repo with some tweaks in the furture:
+ - https://github.com/MeowIce/meowice-flags
+ - https://minecraftvn.net/cau-hinh-de-giam-lag-va-toi-uu-server-minecraft-de-dat-hieu-nang-tot-nhat.t46151/   (Vietnamese-only)
+ - https://github.com/hilltty/hilltty-flags/blob/main/english-lang.md  (Shenandoah GC or smth, big changes ig)
+___
 ## That should be good I think, I suck at English
